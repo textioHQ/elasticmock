@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-__version__ = '1.3.2'
+__version__ = '1.4.0'
 
 setup(
     name='ElasticMock',
@@ -17,7 +17,7 @@ setup(
     include_package_data=True,
     platforms='any',
     install_requires=[
-        'elasticsearch<=1.9.0',
+        'elasticsearch>=6.0.0',
         'mock<=1.0.1'
     ],
     classifiers=[
