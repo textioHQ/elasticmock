@@ -5,9 +5,9 @@ from setuptools import setup, find_packages
 __version__ = '1.4.0'
 
 setup(
-    name='ElasticMock',
+    name='textio-elasticmock',
     version=__version__,
-    url='https://github.com/vrcmarcos/elasticmock',
+    url='https://github.com/textioHQ/textio-elasticmock',
     license='MIT',
     author='Marcos Cardoso',
     author_email='vrcmarcos@gmail.com',
