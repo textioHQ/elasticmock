@@ -234,7 +234,7 @@ class FakeElasticsearch(Elasticsearch):
         # Ensure to have a list of index
         if index is None:
             searchable_indexes = self.__documents_dict.keys()
-        elif isinstance(index, str) or isinstance(index, unicode):
+        elif isinstance(index, str):
             searchable_indexes = [index]
         elif isinstance(index, list):
             searchable_indexes = index
